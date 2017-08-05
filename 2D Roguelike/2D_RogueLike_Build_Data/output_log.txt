@@ -1,0 +1,219 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
+    Vendor:   NVIDIA
+    VRAM:     6103 MB
+    Driver:   22.21.13.8189
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Matthew\Desktop\Bitbucket Projects\Unity\2D Roguelike\2D_RogueLike_Build_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Matthew\Desktop\Bitbucket Projects\Unity\2D Roguelike\2D_RogueLike_Build_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Matthew\Desktop\Bitbucket Projects\Unity\2D Roguelike\2D_RogueLike_Build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Matthew\Desktop\Bitbucket Projects\Unity\2D Roguelike\2D_RogueLike_Build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Matthew\Desktop\Bitbucket Projects\Unity\2D Roguelike\2D_RogueLike_Build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Matthew\Desktop\Bitbucket Projects\Unity\2D Roguelike\2D_RogueLike_Build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Matthew\Desktop\Bitbucket Projects\Unity\2D Roguelike\2D_RogueLike_Build_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Matthew\Desktop\Bitbucket Projects\Unity\2D Roguelike\2D_RogueLike_Build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Matthew\Desktop\Bitbucket Projects\Unity\2D Roguelike\2D_RogueLike_Build_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Matthew\Desktop\Bitbucket Projects\Unity\2D Roguelike\2D_RogueLike_Build_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Matthew\Desktop\Bitbucket Projects\Unity\2D Roguelike\2D_RogueLike_Build_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Matthew\Desktop\Bitbucket Projects\Unity\2D Roguelike\2D_RogueLike_Build_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.018 seconds
+OnLevelWasLoaded was found on GameManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 380)
+
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.715507 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.260364 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 925.
+Total: 0.370276 ms (FindLiveObjects: 0.052652 ms CreateObjectMapping: 0.040699 ms MarkObjects: 0.272655 ms  DeleteObjects: 0.003699 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.582310 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 923.
+Total: 0.249602 ms (FindLiveObjects: 0.039276 ms CreateObjectMapping: 0.020776 ms MarkObjects: 0.186134 ms  DeleteObjects: 0.002846 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.372268 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 926.
+Total: 0.244194 ms (FindLiveObjects: 0.049237 ms CreateObjectMapping: 0.022199 ms MarkObjects: 0.169626 ms  DeleteObjects: 0.002561 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.414675 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 922.
+Total: 0.229394 ms (FindLiveObjects: 0.048952 ms CreateObjectMapping: 0.015368 ms MarkObjects: 0.161942 ms  DeleteObjects: 0.002561 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.454236 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 902.
+Total: 0.294001 ms (FindLiveObjects: 0.055498 ms CreateObjectMapping: 0.021630 ms MarkObjects: 0.213172 ms  DeleteObjects: 0.003130 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.455374 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 920.
+Total: 0.291724 ms (FindLiveObjects: 0.051798 ms CreateObjectMapping: 0.031876 ms MarkObjects: 0.204349 ms  DeleteObjects: 0.002846 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.486966 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 921.
+Total: 0.285178 ms (FindLiveObjects: 0.044399 ms CreateObjectMapping: 0.022768 ms MarkObjects: 0.214310 ms  DeleteObjects: 0.003130 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.464197 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 937.
+Total: 0.295139 ms (FindLiveObjects: 0.047814 ms CreateObjectMapping: 0.022484 ms MarkObjects: 0.221141 ms  DeleteObjects: 0.003130 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.476150 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 913.
+Total: 0.247609 ms (FindLiveObjects: 0.035860 ms CreateObjectMapping: 0.022484 ms MarkObjects: 0.185849 ms  DeleteObjects: 0.002846 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.458789 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 931.
+Total: 0.315631 ms (FindLiveObjects: 0.046960 ms CreateObjectMapping: 0.028176 ms MarkObjects: 0.235940 ms  DeleteObjects: 0.003984 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.629839 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 921.
+Total: 0.356330 ms (FindLiveObjects: 0.058344 ms CreateObjectMapping: 0.023337 ms MarkObjects: 0.261271 ms  DeleteObjects: 0.003415 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.514003 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 923.
+Total: 0.298270 ms (FindLiveObjects: 0.058060 ms CreateObjectMapping: 0.023053 ms MarkObjects: 0.212602 ms  DeleteObjects: 0.003415 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.487819 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 941.
+Total: 0.380237 ms (FindLiveObjects: 0.064321 ms CreateObjectMapping: 0.037853 ms MarkObjects: 0.272655 ms  DeleteObjects: 0.004553 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.575194 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at Completed.GameManager.OnSceneLoaded (Scene arg0, LoadSceneMode arg1) [0x00000] in <filename unknown>:0 
+  at (wrapper delegate-invoke) UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene, UnityEngine.SceneManagement.LoadSceneMode>:invoke_void__this___Scene_LoadSceneMode (UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode)
+  at UnityEngine.SceneManagement.SceneManager.Internal_SceneLoaded (Scene scene, LoadSceneMode mode) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 939.
+Total: 0.275501 ms (FindLiveObjects: 0.043545 ms CreateObjectMapping: 0.023053 ms MarkObjects: 0.204633 ms  DeleteObjects: 0.003415 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 15c -> priority: 1 
+  Thread -> id: 2398 -> priority: 1 
+  Thread -> id: 790 -> priority: 1 
+  Thread -> id: 6dc -> priority: 1 

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1252346245678318}
+  m_IsPrefabParent: 1
+--- !u!1 &1252346245678318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4655038200536862}
+  - component: {fileID: 114891618019946822}
+  - component: {fileID: 114297500626618064}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4655038200536862
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252346245678318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.01414299, y: 0.23590432, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114297500626618064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252346245678318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb01b6272d558e42aa74da77ac48d3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardScript: {fileID: 0}
+--- !u!114 &114891618019946822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1252346245678318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 737b58b36afb58246943beebdacad7cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columns: 8
+  rows: 8
+  wallCount:
+    minimum: 5
+    maximum: 9
+  foodCount:
+    minimum: 1
+    maximum: 5
+  exit: {fileID: 1142535981182226, guid: fc2e26d96b5715d41aa18e554ff7f0a0, type: 2}
+  floorTiles:
+  - {fileID: 1900082832662988, guid: ae9c09a08fc161b428a09dbd2205fdf7, type: 2}
+  - {fileID: 1978928028844752, guid: ff7a48cfe9971e443884be41256de625, type: 2}
+  - {fileID: 1796987621167336, guid: 51077ea1a732d0a4b8439be4bf73e3f7, type: 2}
+  - {fileID: 1664257788398050, guid: d622c74358a246040a450d3ec6fee1e9, type: 2}
+  - {fileID: 1276359216581814, guid: e61e955bcf4261b41807c6c794e27501, type: 2}
+  - {fileID: 1475211792637872, guid: 0a3f223b9f06a1746a6a401122854b16, type: 2}
+  - {fileID: 1312061682392542, guid: 080d692668d3a7e4293bd9a7e77efbce, type: 2}
+  - {fileID: 1788866742550700, guid: bed3820279a6c1b438f149f7e2a3a713, type: 2}
+  wallTiles:
+  - {fileID: 1626599632095502, guid: d9bab52a0c11f69429202973b0ff5b78, type: 2}
+  - {fileID: 1080822127320920, guid: 084b1ce5fa2984946b7e81eb0863ac53, type: 2}
+  - {fileID: 1582263679778360, guid: cfefcd7b4d2ec9d469a12958f8af999f, type: 2}
+  - {fileID: 1975984548310550, guid: 5849e1cf40582284580a800ca21a5b33, type: 2}
+  - {fileID: 1926327942399390, guid: 5aec19a97d8cc13458cf166431e01003, type: 2}
+  - {fileID: 1071569621239856, guid: 57d8933b4a1072f4d85b31defe6f1419, type: 2}
+  - {fileID: 1480205160109012, guid: 18f5d1b9ca0dbeb43994f61869268391, type: 2}
+  - {fileID: 1360377596532542, guid: 4fa5a4fc5b58dca4f86db191a49b4cc6, type: 2}
+  foodTiles:
+  - {fileID: 1710987771874158, guid: 8490c8784294cb94a9f60731988a5b09, type: 2}
+  - {fileID: 1948023886343208, guid: 237afc2165fb1fa46aa7bf1523e80d43, type: 2}
+  enemyTiles:
+  - {fileID: 1285218749495718, guid: b152b48455924d040ba877ddc8c6ca78, type: 2}
+  - {fileID: 1786924285469090, guid: 25751cb373b30e445bdc5dfc05417272, type: 2}
+  outerWallTiles:
+  - {fileID: 1449966288235678, guid: 4e8c3fbdc2b74a84ba4dab3685c493ee, type: 2}
+  - {fileID: 1121379320380308, guid: 621524d529f48ec4091f7fa84b7f78a5, type: 2}
+  - {fileID: 1535174596580906, guid: 1b563a0365a42c94c8a28db0b583e187, type: 2}
